@@ -1,0 +1,24 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "teste": "cucumber-js",
+    "dev": "cucumber-js --format json:cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@babel/register": "^7.24.6",
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "chai": "^5.1.1",
+    "cucumber-html-reporter": "^7.1.1"
+  }
+}
